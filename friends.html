@@ -11,7 +11,7 @@
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+        <span class="status-bar__clock">14:08</span>
       </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
@@ -21,6 +21,7 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
+    <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">Friends</h1>
       </div>
@@ -28,64 +29,73 @@
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-      <span class="header__icon">
-            <i class="fas fa-cog"></i>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
     <main class="friends">
-        <header class="friends__header">
-                <div class="friends__friend friend friend--lg ">
-                    <div class="friend__column">
-                            <img src="images/avatar.jpg" class="g-avatar friend__avartar" />
-                            <div class="friend__content">
-                                <span class="friend__name">
-                                    Nicolas Serrano
-                                </span>
-                                <span class="friend__status">
-                                    nomadcoders.co
-                                </span>
-                            </div>
-                    </div>
-                </div>
-        </header>
-        <div class="friends__plus">
-            <h5 class="friends__title">Plus friend</h5>
-            <div class="friends__friend friend friend">
-              <div class="friend__column">
-               <img src="images/avatar.jpg" class="friend__avartar" />
-               <div class="friend__content">
-                <span class="friend__name">
-                  Plus Friend
-                </span>
-               </div>
-              </div>
+      <header class="friends__header">
+        <div class="friends__friend friend friend">
+          <div class="friend__column">
+            <img
+              src="https://postfiles.pstatic.net/MjAxOTA4MTRfNzMg/MDAxNTY1NzQyOTQzMzY2.tNYaBMSO2iJs2LxjvXNyXmJBVqj3H0ROqIJ6sy5kwQ0g.zYSgnUL0YSI4LGAQdKhyho2I1t3zH8LQUhK02q4IBkEg.PNG.ezin4000/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2019-08-14_02.31.49.png?type=w580"
+              class="g-avatar friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Harry Porter
+              </span>
+              <span class="friend__status">
+                I'm Harry.
+              </span>
             </div>
+          </div>
         </div>
-        <ul class="friends__list">
-          <h5 class="friend__title">Friends 14</h5>
-          <li class="friends__friend friend friend--lg ">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="friend__avartar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Nicolas Serrano
-                </span>
-                <span class="friend__status">
-                  nomadcoders.co
-                </span>
-              </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend friend">
+          <div class="friend__column">
+            <img
+              src="https://vignette.wikia.nocookie.net/harrypotter/images/b/b1/Gryffindor_ClearBG.png/revision/latest/scale-to-width-down/350?cb=20190222162949"
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Gryffindor
+              </span>
             </div>
-            <div class="friend__column">
-                <div class="friend__now-listening">
-                    <span>
-                      FTISLAND (FT NomadCoders)
-                    </span>
-                    <i class="fas fa-play"></i>
-                </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friend__title">Friends 1</h5>
+        <li class="friends__friend friend friend--lg ">
+          <div class="friend__column">
+            <img
+              src="https://postfiles.pstatic.net/MjAxOTA4MTRfNTEg/MDAxNTY1NzQzNDczODIx.ttF-CCdEQdLhURrW9Uz_P5DRxUz0UKLyyk2eEhiax-8g.liQcHCa9O0apFrLhiVtPPFMEvrAH1y-5kkm9z8SnVaUg.JPEG.ezin4000/emma-watson-tie-actress-hermione-granger-wallpaper-preview.jpg?type=w580"
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Hermione
+              </span>
+              <span class="friend__status">
+                Me? Books and cleverness.
+              </span>
             </div>
-          </li>
-        </ul>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                COLDE (Scent)
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -107,10 +117,12 @@
         <li class="nav__list-item">
           <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
-        </a>
-      </li>
-
+          </a>
+        </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">BOW TO DEATH</span>
+    </div>
   </body>
 </html>

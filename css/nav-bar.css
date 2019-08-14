@@ -30,7 +30,23 @@
   background-color: #dc5d46;
   width: 18px;
   height: 18px;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.5s;
 }
