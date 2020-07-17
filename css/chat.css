@@ -19,7 +19,7 @@
 }
 
 .chats-body {
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d7b2e79c-09db-4ffa-b7bd-3540414ad0dd/d5z2f66-d8d9c79c-12d0-47e9-9d93-c36efb2bcbff.jpg/v1/fill/w_900,h_563,q_75,strp/harry_potter_wallpaper__gryffindor_stripes_by_theladyavatar_d5z2f66-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvZDdiMmU3OWMtMDlkYi00ZmZhLWI3YmQtMzU0MDQxNGFkMGRkXC9kNXoyZjY2LWQ4ZDljNzljLTEyZDAtNDdlOS05ZDkzLWMzNmVmYjJiY2JmZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.i-630GtLeaEKfAMKHVrjq5FK8sOyzL1COwqoNjhnyzg");
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d7b2e79c-09db-4ffa-b7bd-3540414ad0dd/d5z2f66-d8d9c79c-12d0-47e9-9d93-c36efb2bcbff.jpg/v1/fill/w_900,h_563,q_75,strp/harry_potter_wallpaper__gryffindor_stripes_by_theladyavatar_d5z2f66-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvZDdiMmU3OWMtMDlkYi00ZmZhLWI3YmQtMzU0MDQxNGFkMGRkXC9kNXoyZjY2LWQ4ZDljNzljLTEyZDAtNDdlOS05ZDkzLWMzNmVmYjJiY2JmZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.i-630GtLeaEKfAMKHVrjq5FK8sOyzL1COwqoNjhnyzg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -27,7 +27,7 @@
 }
 
 .chat-screen .chat__messages {
-  border-top: 1px solid #f7f7f7;
+  /* border-top: 1px solid #f7f7f7; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,7 +147,7 @@
 .sent-message {
   align-self: flex-end;
 }
-
+/*
 @keyframes spin {
   from {
     transform: none;
@@ -156,14 +156,14 @@
     transform: rotateY(1turn);
   }
 }
-
+*/
 .incoming-message img {
   width: 30px;
   border-radius: 15px;
   margin-right: 15px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  animation: spin 1s linear infinite;
+  /* animation: spin 1s linear infinite; */
 }
 
 .message .message__bubble {
