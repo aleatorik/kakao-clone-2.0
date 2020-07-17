@@ -1,3 +1,5 @@
+/*
+
 .bigScreen {
   position: absolute;
   width: 100%;
@@ -7,7 +9,7 @@
   background-image: url("https://www.thesun.co.uk/wp-content/uploads/2018/11/NINTCHDBPICT000204987890.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: #fce006; */
+  background-color: #fce006; //주석처리 코드
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,3 +28,5 @@
     display: flex;
   }
 }
+
+*/
